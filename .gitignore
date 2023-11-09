@@ -122,12 +122,14 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.senv
 env/
 venv/
+senv/
 ENV/
 env.bak/
 venv.bak/
-
+senv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -151,6 +153,14 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+#Api secrete Folder
+API_secretes/
+
+#CSV File
+sample_data/
+
+
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
